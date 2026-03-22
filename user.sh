@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-
+history -c && rm -f ~/.bash_history && clear
 echo "⚡ VPS Auto Setup Starting..."
 
 # Detect if running as root
