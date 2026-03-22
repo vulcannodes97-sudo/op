@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "⚡ Starting VPS Auto Setup..."
-
+sudo -i
 # 1. Enable root login (if needed)
 echo "🔐 Enabling root access..."
 sudo sed -i 's/^#PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config
